@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- iojs
+deploy:
+  provider: npm
+  email: bvdrucker@gmail.com
+  api_key:
+    secure: TQiQ/GDO80UmPmqthUTWpzwYlxN3Edu5qmMe0LHO/be6cIsSVxG03h8yNjKhk12FzYtFdBqraAF45fjEokoGe+OOgWPjVlfvXsbx6ANgVZg3HBgEsgHSHmVrMkAa1nrqRxjQkF/0i4d7wKVy2Sg3WpTFYX3Ti9BmdhG263OvNNU=
+  on:
+    tags: true
+    all_branches: true
+    repo: bendrucker/angular-q-constructor
