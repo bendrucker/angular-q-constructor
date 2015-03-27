@@ -2,7 +2,7 @@
 
 import angular from 'angular';
 
-export default angular.module('qConstructor', [])
+export default angular.module('q-constructor', [])
   .config(decorate)
   .name;
 
