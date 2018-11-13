@@ -1,4 +1,4 @@
-# angular-q-constructor [![Build Status](https://travis-ci.org/bendrucker/angular-q-constructor.svg?branch=master)](https://travis-ci.org/bendrucker/angular-q-constructor)
+# angular-q-constructor [![Build Status](https://travis-ci.org/bendrucker/angular-q-constructor.svg?branch=master)](https://travis-ci.org/bendrucker/angular-q-constructor) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/angular-q-constructor.svg)](https://greenkeeper.io/)
 
 Add constructor support to `$q` in Angular <1.3. In Angular 1.3+, [`$q` can be used as a constructor](https://docs.angularjs.org/api/ng/service/$q#-q-constructor), similar to an ES6 `Promise`. This also makes your promise code easier to read and maintain since logic is fully encapsulated in the `resolver` callback:
 
